@@ -11,5 +11,6 @@ namespace BookStore
         public int Pages { get; set; }
         public string ISBN { get; set; }
         public DateTime PublishDate { get; set; }
+        public decimal Price { get; set; }
     }
 }
