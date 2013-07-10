@@ -1,0 +1,5 @@
+C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\bin\Debug\BookStore.exe.config
+C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\bin\Debug\BookStore.exe
+C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\bin\Debug\BookStore.pdb
+C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\obj\Debug\BookStore.exe
+C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\obj\Debug\BookStore.pdb
