@@ -25,6 +25,7 @@ namespace BookStore
 
         private static void RegisterTypes(IUnityContainer container)
         {
+            // Essential part, register service type to be used by controllers.
             container.RegisterType<IBookService, PhysicalBookService>();
         }
     }
