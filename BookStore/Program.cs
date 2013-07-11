@@ -2,26 +2,20 @@
 using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Microsoft.Practices.Unity;
 
 namespace BookStore
 {
     class Program
     {
-        static BookController _bookController;
-
         static void Main(string[] args)
         {
-            Initialize();
+            BootStrap.Initialize();
 
-            var books = _bookController.GetInventory();
+            BookController controller = ControllerFactory.GetBookController();
+            var books = controller.GetInventory();
             books.ToList().ForEach(b => Console.WriteLine(b.Title + " " + b.ISBN));
             Console.ReadLine();
-        }
-
-        static void Initialize()
-        {
-            _bookController = new BookController(new PhysicalBookService());
-
         }
     }
 }

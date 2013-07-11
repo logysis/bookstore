@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Practices.Unity;
 
 namespace BookStore
 {
@@ -37,6 +38,14 @@ namespace BookStore
         public IEnumerable<Book> GetInventory()
         {
             return _service.GetBooks();
+        }
+    }
+
+    public static class ControllerFactory
+    {
+        public static BookController GetBookController()
+        {
+            return DependencyResolver.Resolve<BookController>();
         }
     }
 }
