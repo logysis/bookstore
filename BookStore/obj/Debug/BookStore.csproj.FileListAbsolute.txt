@@ -7,3 +7,4 @@ C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\Bo
 C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\bin\Debug\Microsoft.Practices.Unity.dll
 C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\bin\Debug\Microsoft.Practices.Unity.xml
 C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\chenst\Documents\Visual Studio 2012\Projects\Repos\DefaultRepository\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
