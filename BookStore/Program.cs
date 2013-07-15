@@ -15,7 +15,7 @@ namespace BookStore
             BookController controller = ControllerFactory.GetBookController();
             var books = controller.GetInventory();
             books.ToList().ForEach(b => Console.WriteLine(b.Title + " " + b.ISBN));
-            Console.ReadLine();
+            Console.ReadLine();//
         }
     }
 }
